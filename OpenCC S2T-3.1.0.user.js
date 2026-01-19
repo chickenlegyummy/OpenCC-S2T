@@ -50,11 +50,9 @@
         );
 
         if (isTyping) {
-            console.log(TAG, 'Skipping conversion - user is typing');
             return;
         }
 
-        console.log(TAG, 'Applying conversion');
         walk(document.body, null);
     }
 
